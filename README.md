@@ -2,6 +2,10 @@
 
 A simple Telegram bot powered by OpenAI's GPT-4. This bot allows users to interact with an AI assistant directly from Telegram. The bot listens to messages sent to it via Telegram, processes them using OpenAI's GPT-4 model, and responds with intelligent, conversational replies.
 
+
+![image](https://github.com/user-attachments/assets/463398ee-54b3-48dc-a894-b23fac35ab22)
+
+
 ## Features
 
 - **GPT-4 Powered**: Uses OpenAI's GPT-4 model for generating responses.
