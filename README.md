@@ -1,4 +1,3 @@
-```markdown
 # Telegram GPT-4 Bot
 
 A simple Telegram bot powered by OpenAI's GPT-4. This bot allows users to interact with an AI assistant directly from Telegram. The bot listens to messages sent to it via Telegram, processes them using OpenAI's GPT-4 model, and responds with intelligent, conversational replies.
@@ -15,6 +14,28 @@ A simple Telegram bot powered by OpenAI's GPT-4. This bot allows users to intera
 - A **Telegram bot token** (from [BotFather](https://core.telegram.org/bots#botfather))
 - An **OpenAI API key** (from [OpenAI](https://platform.openai.com/account/api-keys))
 - **ngrok** (optional, for local development to expose your server to the internet)
+
+## Telegram Bot Setup (BotFather)
+
+1. **Start a chat with [BotFather](https://t.me/botfather)**:
+   - Search for `BotFather` on Telegram or click the link.
+   - Send the command `/start` to begin the bot creation process.
+
+2. **Create a new bot**:
+   - Send the command `/newbot`.
+   - Follow the instructions to name your bot and set a username for it (the username must end with `bot`, e.g., `MyAwesomeBot`).
+
+3. **Get the bot token**:
+   - After successfully creating the bot, BotFather will send you a message containing your bot's **API token**. Save this token—you will need it for the bot setup.
+
+4. **Set the bot description (optional)**:
+   - Use the command `/setdescription` to add a description of your bot.
+   - You can also set other details like a profile picture or commands using `/setuserpic`, `/setabouttext`, etc.
+
+5. **Enable Privacy Mode (optional)**:
+   - If your bot is being added to groups, you may want to enable or disable privacy mode using `/setprivacy`. In privacy mode, your bot will only respond to messages that mention it directly.
+
+Now that you have your bot token from BotFather, you can proceed with the installation steps below.
 
 ## Installation
 
@@ -114,7 +135,3 @@ This project is licensed under the MIT License. Feel free to contribute or fork 
 ## Contributing
 
 Feel free to open issues or submit pull requests. Contributions are welcome to improve the bot or add new features.
-
-```
-
-This version includes the proper formatting for the bash commands and is ready to be copied into your `README.md`. Let me know if you need any further adjustments!
